@@ -4,6 +4,8 @@
 // Hint: std::process::exit
 // Try it: cargo run -p false; echo $?   -> 1
 
-fn main() {
-    todo!()
+use std::process::ExitCode;
+
+fn main() -> ExitCode{
+    ExitCode::FAILURE
 }
