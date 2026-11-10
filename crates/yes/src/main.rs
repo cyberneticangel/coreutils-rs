@@ -6,5 +6,7 @@
 // Try it: cargo run -p yes -- hello | head -3
 
 fn main() {
-    todo!()
+    loop {
+        print!("y\n");
+    }
 }
